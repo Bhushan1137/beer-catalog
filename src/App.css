@@ -1,0 +1,35 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.beer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.beer-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.beer-image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+h3 {
+  margin: 10px 0;
+}
